@@ -105,10 +105,10 @@ See `.env.example` for the full list (no real secrets committed). Key ones:
 
 ## 5. Deployed application
 
-- Frontend: `<fill in after deploying>`
-- Backend API base URL: `<fill in after deploying>`
-- Swagger/OpenAPI docs: `<backend-url>/docs`
-- Public GitHub repo: `<fill in>`
+- Frontend: https://document-intelligence-platform-5cpo.onrender.com
+- Backend API base URL: https://document-intelligence-platform-5cpo.onrender.com
+- Swagger/OpenAPI docs: https://document-intelligence-platform-5cpo.onrender.com/docs
+- Public GitHub repo: https://github.com/vedashri756/document-intelligence-platform
 
 ## 6. API reference
 
@@ -215,8 +215,13 @@ connection string for production use with no code changes.
 
 ## 13. AI coding assistants used
 
-Claude (Anthropic) was used throughout to design the architecture, write
-the extraction/validation/API code, and generate this documentation.
+Claude (Anthropic) was used to design the architecture and write the
+initial implementation of the extraction/validation/API code. I reviewed,
+tested, and debugged the system end-to-end — including resolving local
+environment issues (Python version compatibility, Tesseract/Poppler setup),
+diagnosing and fixing Gemini model deprecation and rate-limit issues during
+testing, and verifying extraction/validation accuracy against the real
+dataset.
 
 ## 14. Repository structure
 
