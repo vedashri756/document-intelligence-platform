@@ -84,10 +84,26 @@ def _find_field(fields: list[ExtractedField], *keyword_groups: list[str]) -> Opt
     return None
 
 
+def _formula_labels(formula: str) -> tuple[str, str, str]:
+    """Extracts readable field names from a formula string like
+    'net_worth + vat_amount == gross_worth' -> ('net_worth', 'vat_amount', 'gross_worth').
+    Falls back to generic labels if the formula doesn't match the expected shape."""
+    try:
+        left, right = formula.split("==")
+        expected_label = right.strip()
+        match = re.match(r"\s*([a-zA-Z0-9_]+)\s*[+\-]\s*([a-zA-Z0-9_]+)\s*", left)
+        if match:
+            return match.group(1), match.group(2), expected_label
+    except ValueError:
+        pass
+    return "value_a", "value_b", "expected_value"
+
+
 def _check(name: str, formula: str, a: Optional[ExtractedField], b: Optional[ExtractedField],
            expected: Optional[ExtractedField], op) -> ValidationCheck:
+    a_label, b_label, expected_label = _formula_labels(formula)
     if a is None or b is None or expected is None:
-        missing = [n for n, x in [("a", a), ("b", b), ("expected", expected)] if x is None]
+        missing = [label for label, x in [(a_label, a), (b_label, b), (expected_label, expected)] if x is None]
         return ValidationCheck(
             check_name=name, formula=formula, status="NOT_APPLICABLE",
             note=f"Required field(s) not present in document: {missing}",
