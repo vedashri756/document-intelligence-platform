@@ -199,6 +199,22 @@ connection string for production use with no code changes.
   matched the minority interest line). A more precise check would target
   "Net Profit before Minorities' Interest" specifically for consolidated
   statements rather than a generic `net_profit` label.
+- Field naming is document-driven rather than fixed (e.g. `net_worth`/
+  `gross_worth` rather than `subtotal`/`total_amount`), by design, so that
+  extraction reflects each document's own terminology rather than forcing
+  a rigid schema. Standard field names in the prompts are a naming
+  convention for validation lookup, not a hardcoded extraction limit.
+- Only one primary financial-validation check is implemented per document
+  type (e.g. Total Income - Total Expenses == Net Profit), rather than the
+  full chained checks a real audit might run (e.g. income components ->
+  Total Income -> Profit before Minority Interest -> Profit attributable
+  to Group). The single check already surfaces real discrepancies (see the
+  minority-interest example above) but does not decompose them further.
+- Validation checks the current/summary period only; statements with
+  multiple comparative years (e.g. "March 31, 2024" vs "March 31, 2023")
+  are not validated per-period independently, and line-item-level checks
+  (e.g. Quantity x Unit Price == Line Total) are not implemented for
+  invoice tables, only the document-level summary totals.
 
 ## 12. What would change for production
 
