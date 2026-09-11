@@ -32,7 +32,7 @@ def client(monkeypatch):
 
 
 def test_health_check(client):
-    res = client.get("/health")
+    res = client.get("/api/v1/health")
     assert res.status_code == 200
     assert res.json()["status"] == "ok"
 
@@ -44,7 +44,7 @@ def test_process_document_flow(client):
     buf.seek(0)
 
     res = client.post(
-        "/documents/process",
+        "/api/v1/documents/process",
         data={"document_type": "INVOICE"},
         files={"file": ("test_invoice.png", buf, "image/png")},
     )
@@ -55,25 +55,25 @@ def test_process_document_flow(client):
     assert any(v["status"] == "PASS" for v in body["validations"])
 
     # GET by name should return the same result
-    res2 = client.get("/documents/test_invoice.png")
+    res2 = client.get("/api/v1/documents/test_invoice.png")
     assert res2.status_code == 200
     assert res2.json()["document_name"] == "test_invoice.png"
 
     # List endpoint should include it
-    res3 = client.get("/documents")
+    res3 = client.get("/api/v1/documents")
     names = [d["document_name"] for d in res3.json()]
     assert "test_invoice.png" in names
 
 
 def test_get_nonexistent_document_returns_404(client):
-    res = client.get("/documents/does_not_exist.pdf")
+    res = client.get("/api/v1/documents/does_not_exist.pdf")
     assert res.status_code == 404
     assert res.json()["error_code"] == "DOCUMENT_NOT_FOUND"
 
 
 def test_unsupported_file_type_returns_clean_error(client):
     res = client.post(
-        "/documents/process",
+        "/api/v1/documents/process",
         data={"document_type": "INVOICE"},
         files={"file": ("notes.txt", io.BytesIO(b"hello"), "text/plain")},
     )

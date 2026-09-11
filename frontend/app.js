@@ -1,4 +1,4 @@
-const API_BASE = ""; // same origin as the deployed backend
+const API_BASE = "/api/v1"; // matches the spec's required endpoint prefix
 
 const form = document.getElementById("upload-form");
 const statusDiv = document.getElementById("upload-status");

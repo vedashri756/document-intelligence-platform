@@ -58,8 +58,8 @@ async def handle_unexpected_error(request: Request, exc: Exception):
     )
 
 
-app.include_router(routes_health.router)
-app.include_router(routes_documents.router)
+app.include_router(routes_health.router, prefix="/api/v1")
+app.include_router(routes_documents.router, prefix="/api/v1")
 
 # Serve the static frontend at /
 app.mount("/", StaticFiles(directory="frontend", html=True), name="frontend")
