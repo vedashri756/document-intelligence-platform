@@ -1,0 +1,260 @@
+{
+  "document_name": "Consolidated Profit & Loss 2025.pdf",
+  "document_type": "PROFIT_AND_LOSS",
+  "status": "SUCCESS",
+  "file_validation": {
+    "filename": "Consolidated Profit & Loss 2025.pdf",
+    "extension": ".pdf",
+    "page_count": 1,
+    "size_bytes": 157206
+  },
+  "extracted_data": {
+    "fields": [
+      {
+        "name": "period_end_date",
+        "value": "March 31, 2025",
+        "page": 1,
+        "source_text": "For the year ended March 31, 2025"
+      },
+      {
+        "name": "total_income",
+        "value": "470,915.93",
+        "page": 1,
+        "source_text": "Total 470,915.93"
+      },
+      {
+        "name": "total_expenses",
+        "value": "397,475.76",
+        "page": 1,
+        "source_text": "Total 397,475.76"
+      },
+      {
+        "name": "net_profit",
+        "value": "70,792.25",
+        "page": 1,
+        "source_text": "Consolidated Net Profit for the year attributable to the group 70,792.25"
+      },
+      {
+        "name": "currency",
+        "value": "Cin crore",
+        "page": 1,
+        "source_text": "Cin crore"
+      }
+    ],
+    "tables": [
+      {
+        "table_name": "Consolidated Profit and Loss Account",
+        "page": 1,
+        "columns": [
+          "Particulars",
+          "Schedule",
+          "March 31, 2025",
+          "March 31, 2024"
+        ],
+        "rows": [
+          [
+            "I. INCOME",
+            null,
+            null,
+            null
+          ],
+          [
+            "Interest earned",
+            "13",
+            "336,367.43",
+            "283,649.02"
+          ],
+          [
+            "Other income",
+            "14",
+            "134,548.50",
+            "124,345.75"
+          ],
+          [
+            "Total",
+            null,
+            "470,915.93",
+            "407,994.77"
+          ],
+          [
+            "II. EXPENDITURE",
+            null,
+            null,
+            null
+          ],
+          [
+            "Interest expended",
+            "15",
+            "183,894.20",
+            "154,138.55"
+          ],
+          [
+            "Operating expenses",
+            "16",
+            "176,605.07",
+            "152,269.34"
+          ],
+          [
+            "Provisions and contingencies",
+            "18 (10)",
+            "36,976.49",
+            "36,140.38"
+          ],
+          [
+            "Total",
+            null,
+            "397,475.76",
+            "342,548.27"
+          ],
+          [
+            "III. PROFIT",
+            null,
+            null,
+            null
+          ],
+          [
+            "Consolidated Net Profit for the year before Minority Interest",
+            null,
+            "73,440.17",
+            "65,446.50"
+          ],
+          [
+            "Less : Minority Interest",
+            null,
+            "2,647.92",
+            "1,384.46"
+          ],
+          [
+            "Consolidated Net Profit for the year attributable to the group",
+            null,
+            "70,792.25",
+            "64,062.04"
+          ],
+          [
+            "Brought forward consolidated profit attributable to the group",
+            null,
+            "150,045.57",
+            "120,369.35"
+          ],
+          [
+            "Addition on amalgamation (net)",
+            "18 (1)",
+            null,
+            "3,570.10"
+          ],
+          [
+            "Total",
+            null,
+            "220,837.82",
+            "188,001.49"
+          ],
+          [
+            "IV. APPROPRIATIONS",
+            null,
+            null,
+            null
+          ],
+          [
+            "Transfer to Statutory Reserve",
+            null,
+            "17,260.30",
+            "15,684.72"
+          ],
+          [
+            "Transfer to General Reserve",
+            null,
+            "6,734.74",
+            "6,081.23"
+          ],
+          [
+            "Transfer to Special Reserve",
+            null,
+            "3,200.00",
+            "3,000.00"
+          ],
+          [
+            "Transfer to Capital Reserve",
+            null,
+            "507.00",
+            "4,166.41"
+          ],
+          [
+            "Transfer to / (from) Investment Reserve Account (net)",
+            null,
+            "-",
+            "529.42"
+          ],
+          [
+            "Transfer to / (from) Investment Fluctuation Reserve",
+            null,
+            "-",
+            "378.00"
+          ],
+          [
+            "Dividend pertaining to previous year paid during the year",
+            null,
+            "14,826.19",
+            "8,404.42"
+          ],
+          [
+            "Transfer to / (from) Minority Interest (opening adjustment)",
+            null,
+            "(882.96)",
+            "(288.28)"
+          ],
+          [
+            "Balance carried over to consolidated balance sheet",
+            null,
+            "178,692.55",
+            "150,045.57"
+          ],
+          [
+            "Total",
+            null,
+            "220,837.82",
+            "188,001.49"
+          ],
+          [
+            "V. EARNINGS PER EQUITY SHARE (Face value ~ 1/- per share)",
+            "18 (19)",
+            null,
+            null
+          ],
+          [
+            "Basic",
+            null,
+            "92.81",
+            "90.42"
+          ],
+          [
+            "Diluted",
+            null,
+            "92.39",
+            "90.01"
+          ]
+        ]
+      }
+    ]
+  },
+  "validations": [
+    {
+      "check_name": "Net Profit = Total Income - Total Expenses",
+      "formula": "total_income - total_expenses == net_profit",
+      "inputs": {
+        "total_income": 470915.93,
+        "total_expenses": 397475.76,
+        "net_profit": 70792.25
+      },
+      "calculated_value": 73440.17,
+      "reported_value": 70792.25,
+      "variance": 2647.92,
+      "status": "FAIL",
+      "note": null
+    }
+  ],
+  "processing_metadata": {
+    "ocr_source": "ocr",
+    "model_used": "gemini",
+    "processing_time_ms": 22784
+  }
+}

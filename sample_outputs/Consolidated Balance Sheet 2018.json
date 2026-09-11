@@ -1,0 +1,187 @@
+{
+  "document_name": "Consolidated Balance Sheet 2018.pdf",
+  "document_type": "BALANCE_SHEET",
+  "status": "SUCCESS",
+  "file_validation": {
+    "filename": "Consolidated Balance Sheet 2018.pdf",
+    "extension": ".pdf",
+    "page_count": 1,
+    "size_bytes": 118672
+  },
+  "extracted_data": {
+    "fields": [
+      {
+        "name": "as_at_date",
+        "value": "March 31, 2018",
+        "page": 1,
+        "source_text": "As at March 31, 2018"
+      },
+      {
+        "name": "total_capital_and_liabilities",
+        "value": "11,031,861,695",
+        "page": 1,
+        "source_text": "Total 11,031,861,695 8,923,441,607"
+      },
+      {
+        "name": "total_assets",
+        "value": "11,031,861,695",
+        "page": 1,
+        "source_text": "Total 11,031,861,695 8,923,441,607"
+      },
+      {
+        "name": "company_name",
+        "value": "HDFC Bank Limited",
+        "page": 1,
+        "source_text": "HDFC Bank Limited Annual Report 2017-18"
+      },
+      {
+        "name": "currency",
+        "value": "in \u2018000",
+        "page": 1,
+        "source_text": "= in \u2018000"
+      },
+      {
+        "name": "auditor",
+        "value": "Deloitte Haskins & Sells",
+        "page": 1,
+        "source_text": "For Deloitte Haskins & Sells"
+      },
+      {
+        "name": "report_date",
+        "value": "April 21, 2018",
+        "page": 1,
+        "source_text": "Mumbai, April 21, 2018"
+      }
+    ],
+    "tables": [
+      {
+        "table_name": "Consolidated Balance Sheet",
+        "page": 1,
+        "columns": [
+          "Line Item",
+          "Schedule",
+          "As at 31-Mar-18",
+          "As at 31-Mar-17"
+        ],
+        "rows": [
+          [
+            "Capital",
+            "1",
+            "5,190,181",
+            "5,125,091"
+          ],
+          [
+            "Reserves and surplus",
+            "2",
+            "1,090,801,062",
+            "912,814,397"
+          ],
+          [
+            "Minority interest",
+            "2A",
+            "3,563,322",
+            "2,914,389"
+          ],
+          [
+            "Deposits",
+            "3",
+            "7,883,751,419",
+            "6,431,342,479"
+          ],
+          [
+            "Borrowings",
+            "4",
+            "1,564,420,848",
+            "984,156,439"
+          ],
+          [
+            "Other liabilities and provisions",
+            "5",
+            "484,134,863",
+            "587,088,812"
+          ],
+          [
+            "Total Capital and Liabilities",
+            "Total",
+            "11,031,861,695",
+            "8,923,441,607"
+          ],
+          [
+            "Cash and balances with Reserve Bank of India",
+            "6",
+            "1,046,882,074",
+            "379,105,485"
+          ],
+          [
+            "Balances with banks and money at call and short notice",
+            "7",
+            "183,733,488",
+            "114,005,711"
+          ],
+          [
+            "Investments",
+            "8",
+            "2,384,609,240",
+            "2,107,771,120"
+          ],
+          [
+            "Advances",
+            "9",
+            "7,000,338,363",
+            "5,854,809,871"
+          ],
+          [
+            "Fixed assets",
+            "10",
+            "38,105,583",
+            "38,146,997"
+          ],
+          [
+            "Other assets",
+            "11",
+            "378,192,947",
+            "429,602,423"
+          ],
+          [
+            "Total Assets",
+            "Total",
+            "11,031,861,695",
+            "8,923,441,607"
+          ],
+          [
+            "Contingent liabilities",
+            "12",
+            "8,757,769,674",
+            "8,182,842,892"
+          ],
+          [
+            "Bills for collection",
+            null,
+            "427,538,250",
+            "308,480,352"
+          ]
+        ]
+      }
+    ]
+  },
+  "validations": [
+    {
+      "check_name": "Assets = Capital & Liabilities",
+      "formula": "total_assets == total_capital_and_liabilities",
+      "inputs": {
+        "total_assets": 11031861695.0,
+        "total_capital_and_liabilities": 11031861695.0
+      },
+      "calculated_value": 11031861695.0,
+      "reported_value": 11031861695.0,
+      "variance": 0.0,
+      "status": "PASS",
+      "note": null
+    }
+  ],
+  "processing_metadata": {
+    "ocr_source": "ocr",
+    "model_used": "gemini",
+    "processing_time_ms": 18758
+  }
+}

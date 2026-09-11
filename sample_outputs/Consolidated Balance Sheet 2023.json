@@ -1,0 +1,187 @@
+{
+  "document_name": "Consolidated Balance Sheet 2023.pdf",
+  "document_type": "BALANCE_SHEET",
+  "status": "SUCCESS",
+  "file_validation": {
+    "filename": "Consolidated Balance Sheet 2023.pdf",
+    "extension": ".pdf",
+    "page_count": 1,
+    "size_bytes": 121371
+  },
+  "extracted_data": {
+    "fields": [
+      {
+        "name": "as_at_date",
+        "value": "March 31, 2023",
+        "page": 1,
+        "source_text": "As at March 31, 2023"
+      },
+      {
+        "name": "total_capital_and_liabilities",
+        "value": "2,530,432.44",
+        "page": 1,
+        "source_text": "Total 2,530,432.44 2,122,934.30"
+      },
+      {
+        "name": "total_assets",
+        "value": "2,530,432.44",
+        "page": 1,
+        "source_text": "Total 2,530,432.44 2,122,934.30"
+      },
+      {
+        "name": "currency",
+        "value": "Zin crore",
+        "page": 1,
+        "source_text": "Zin crore"
+      }
+    ],
+    "tables": [
+      {
+        "table_name": "Consolidated Balance Sheet",
+        "page": 1,
+        "columns": [
+          "Line Item",
+          "Schedule",
+          "March 31 2023",
+          "March 31 2022"
+        ],
+        "rows": [
+          [
+            "CAPITAL AND LIABILITIES",
+            null,
+            null,
+            null
+          ],
+          [
+            "Capital",
+            "1",
+            "557.97",
+            "554,55"
+          ],
+          [
+            "Reserves and surplus",
+            "2",
+            "288,879.53",
+            "246,771.62"
+          ],
+          [
+            "Minority interest",
+            "2A",
+            "860.26",
+            "720.41"
+          ],
+          [
+            "Deposits",
+            "3",
+            "1,882,663.25",
+            "1,558,003.03"
+          ],
+          [
+            "Borrowings",
+            "4",
+            "256,548.66",
+            "226,966.50"
+          ],
+          [
+            "Other liabilities and provisions",
+            "5",
+            "100,922.77",
+            "89,918.19"
+          ],
+          [
+            "Total Capital and Liabilities",
+            null,
+            "2,530,432.44",
+            "2,122,934.30"
+          ],
+          [
+            "ASSETS",
+            null,
+            null,
+            null
+          ],
+          [
+            "Cash and balances with Reserve Bank of India",
+            "6",
+            "117,189.28",
+            "130,030.71"
+          ],
+          [
+            "Balances with banks and money at call and short notice",
+            "7",
+            "79,958.53",
+            "25,355.02"
+          ],
+          [
+            "Investments",
+            "8",
+            "511,581.71",
+            "449,263.86"
+          ],
+          [
+            "Advances",
+            "9",
+            "1,661,949.29",
+            "1,420,942.28"
+          ],
+          [
+            "Fixed assets",
+            "10",
+            "8,282.56",
+            "6,283.28"
+          ],
+          [
+            "Other assets onl",
+            null,
+            "151,322.28",
+            "90,910.36"
+          ],
+          [
+            "Goodwill on Consolidation",
+            null,
+            "148.79",
+            "148.79"
+          ],
+          [
+            "Total Assets",
+            null,
+            "2,530,432.44",
+            "2,122,934.30"
+          ],
+          [
+            "Contingent liabilities",
+            "12",
+            "1,750,953.81",
+            "1,400,197.64"
+          ],
+          [
+            "Bills for collection",
+            null,
+            "71,439.54",
+            "56,968.05"
+          ]
+        ]
+      }
+    ]
+  },
+  "validations": [
+    {
+      "check_name": "Assets = Capital & Liabilities",
+      "formula": "total_assets == total_capital_and_liabilities",
+      "inputs": {
+        "total_assets": 2530432.44,
+        "total_capital_and_liabilities": 2530432.44
+      },
+      "calculated_value": 2530432.44,
+      "reported_value": 2530432.44,
+      "variance": 0.0,
+      "status": "PASS",
+      "note": null
+    }
+  ],
+  "processing_metadata": {
+    "ocr_source": "ocr",
+    "model_used": "gemini",
+    "processing_time_ms": 22597
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "document_name": "Consolidated Cash Flow Statement 2021.pdf",
+  "document_type": "CASH_FLOW",
+  "status": "SUCCESS",
+  "file_validation": {
+    "filename": "Consolidated Cash Flow Statement 2021.pdf",
+    "extension": ".pdf",
+    "page_count": 1,
+    "size_bytes": 165999
+  },
+  "extracted_data": {
+    "fields": [
+      {
+        "name": "period_end_date",
+        "value": "31-Mar-21",
+        "page": 1,
+        "source_text": "31-Mar-21"
+      },
+      {
+        "name": "opening_cash_balance",
+        "value": "879,401,119",
+        "page": 1,
+        "source_text": "Cash and cash equivalents as at April 1\u00b0* 879,401,119"
+      },
+      {
+        "name": "closing_cash_balance",
+        "value": "1,212,725,264",
+        "page": 1,
+        "source_text": "Cash and cash equivalents as at March 31** 1,212,725,264"
+      },
+      {
+        "name": "net_cash_from_operating_activities",
+        "value": "424,764,563",
+        "page": 1,
+        "source_text": "Net cash flow from / (used in) operating activities 424,764,563"
+      },
+      {
+        "name": "net_cash_from_investing_activities",
+        "value": "(16,808,651)",
+        "page": 1,
+        "source_text": "Net cash flow used in investing activities (16,808,651)"
+      },
+      {
+        "name": "net_cash_from_financing_activities",
+        "value": "(73,213,515)",
+        "page": 1,
+        "source_text": "Net cash flow (used in) / from financing activities (73,213,515)"
+      },
+      {
+        "name": "currency_scale",
+        "value": "% in \u2018000",
+        "page": 1,
+        "source_text": "% in \u2018000"
+      }
+    ],
+    "tables": [
+      {
+        "table_name": "Consolidated Cash Flow Statement",
+        "page": 1,
+        "columns": [
+          "Line Item",
+          "Year ended 31-Mar-21",
+          "Year ended 31-Mar-20"
+        ],
+        "rows": [
+          [
+            "Cash flows from / (used in) operating activities",
+            null,
+            null
+          ],
+          [
+            "Consolidated profit before income tax",
+            "427,725,836",
+            "381,525,366"
+          ],
+          [
+            "Adjustments for :",
+            null,
+            null
+          ],
+          [
+            "Depreciation on fixed assets",
+            "13,850,062",
+            "12,767,714"
+          ],
+          [
+            "(Profit) / loss on revaluation of investments",
+            "14,853,243",
+            "7,021,095"
+          ],
+          [
+            "Amortisation of premium on held to maturity investments",
+            "7,654,693",
+            "5,014,137"
+          ],
+          [
+            "(Profit) / loss on sale of fixed assets",
+            "2,859",
+            "81,865"
+          ],
+          [
+            "Provision / charge for non performing assets",
+            "139,270,110",
+            "110,657,129"
+          ],
+          [
+            "Provision for standard assets and contingencies",
+            "52,830,711",
+            "30,574,317"
+          ],
+          [
+            "Subtotal",
+            "656,187,514",
+            "547,641,623"
+          ],
+          [
+            "Adjustments for :",
+            null,
+            null
+          ],
+          [
+            "(Increase) / decrease in investments",
+            null,
+            null
+          ],
+          [
+            "(Increase) / decrease in advances",
+            "(1,556,810,724)",
+            "(1,855,003,617)"
+          ],
+          [
+            "Increase / (decrease) in deposits",
+            "1,875,137,422",
+            "2,237,044,557"
+          ],
+          [
+            "(Increase) / decrease in other assets",
+            "83,076,840",
+            "(72,497,457)"
+          ],
+          [
+            "Increase / (decrease) in other liabilities and provisions",
+            "(1,045,600)",
+            "93,598,719"
+          ],
+          [
+            "Subtotal",
+            "554,979,093",
+            "(59,917,171)"
+          ],
+          [
+            "Direct taxes paid (net of refunds)",
+            "(130,214,530)",
+            "(108,773,749)"
+          ],
+          [
+            "Net cash flow from / (used in) operating activities",
+            "424,764,563",
+            "(168,690,920)"
+          ],
+          [
+            "Cash flows from / (used in) investing activities",
+            null,
+            null
+          ],
+          [
+            "Purchase of fixed assets",
+            "(16,961,460)",
+            "(16,358,706)"
+          ],
+          [
+            "Proceeds from sale of fixed assets",
+            "152,809",
+            "189,462"
+          ],
+          [
+            "Net cash flow used in investing activities",
+            "(16,808,651)",
+            "(16,169,244)"
+          ],
+          [
+            "Cash flows (used in) / from financing activities",
+            null,
+            null
+          ],
+          [
+            "Increase in minority interest",
+            "561,234",
+            "748,468"
+          ],
+          [
+            "Proceeds from issue of share capital, net of issue expenses",
+            "17,600,995",
+            "18,486,821"
+          ],
+          [
+            "Proceeds from issue of Tier I and Tier II capital bonds",
+            "3,565,000",
+            "7,435,000"
+          ],
+          [
+            "Redemption of Tier II Capital Bonds",
+            "(11,050,000)",
+            null
+          ],
+          [
+            "Increase / (decrease) in other borrowings",
+            "(83,890,744)",
+            "283,580,441"
+          ],
+          [
+            "Dividend paid during the period (including tax on dividend)",
+            "-",
+            "(66,305,761)"
+          ],
+          [
+            "Net cash flow (used in) / from financing activities",
+            "(73,213,515)",
+            "243,944,969"
+          ],
+          [
+            "Effect of exchange fluctuation on translation reserve",
+            "(1,418,252)",
+            "2,139,891"
+          ],
+          [
+            "Net increase / (decrease) in cash and cash equivalents",
+            "333,324,145",
+            "61,224,696"
+          ],
+          [
+            "Cash and cash equivalents as at April 1st",
+            "879,401,119",
+            "818,176,423"
+          ],
+          [
+            "Cash and cash equivalents as at March 31st",
+            "1,212,725,264",
+            "879,401,119"
+          ]
+        ]
+      }
+    ]
+  },
+  "validations": [
+    {
+      "check_name": "Closing Balance = Opening + Net Cash Flows",
+      "formula": "opening_cash_balance + operating_cf + investing_cf + financing_cf == closing_cash_balance",
+      "inputs": {
+        "opening_cash_balance": 879401119.0,
+        "net_cash_from_operating_activities": 424764563.0,
+        "net_cash_from_investing_activities": -16808651.0,
+        "net_cash_from_financing_activities": -73213515.0
+      },
+      "calculated_value": 1214143516.0,
+      "reported_value": 1212725264.0,
+      "variance": 1418252.0,
+      "status": "FAIL",
+      "note": null
+    }
+  ],
+  "processing_metadata": {
+    "ocr_source": "ocr",
+    "model_used": "gemini",
+    "processing_time_ms": 283661
+  }
+}

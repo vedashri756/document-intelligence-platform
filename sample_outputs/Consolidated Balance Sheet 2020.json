@@ -1,0 +1,187 @@
+{
+  "document_name": "Consolidated Balance Sheet 2020.pdf",
+  "document_type": "BALANCE_SHEET",
+  "status": "SUCCESS",
+  "file_validation": {
+    "filename": "Consolidated Balance Sheet 2020.pdf",
+    "extension": ".pdf",
+    "page_count": 1,
+    "size_bytes": 106286
+  },
+  "extracted_data": {
+    "fields": [
+      {
+        "name": "as_at_date",
+        "value": "March 31, 2020",
+        "page": 1,
+        "source_text": "As at March 31, 2020"
+      },
+      {
+        "name": "total_capital_and_liabilities",
+        "value": "42,928,057,065",
+        "page": 1,
+        "source_text": "Total 42,928,057,065"
+      },
+      {
+        "name": "total_assets",
+        "value": "12,928,057,065",
+        "page": 1,
+        "source_text": "Total 12,928,057,065"
+      },
+      {
+        "name": "currency",
+        "value": "in \u2018000",
+        "page": 1,
+        "source_text": "in \u2018000"
+      },
+      {
+        "name": "company_name",
+        "value": "HDFC Bank Limited",
+        "page": 1,
+        "source_text": "HDFC Bank Limited"
+      },
+      {
+        "name": "auditor_firm",
+        "value": "MSKA & Associates",
+        "page": 1,
+        "source_text": "For MSKA & Associates"
+      },
+      {
+        "name": "report_date",
+        "value": "April 18, 2020",
+        "page": 1,
+        "source_text": "Mumbai, April 18, 2020"
+      }
+    ],
+    "tables": [
+      {
+        "table_name": "Consolidated Balance Sheet",
+        "page": 1,
+        "columns": [
+          "Particulars",
+          "Schedule",
+          "As at March 31, 2020",
+          "As at March 31, 2019"
+        ],
+        "rows": [
+          [
+            "Capital",
+            "1",
+            "5,483,286",
+            "5,446,613"
+          ],
+          [
+            "Reserves and surplus",
+            "2",
+            "1,758,103,766",
+            "1,531,279,982"
+          ],
+          [
+            "Minority interest",
+            "2A",
+            "5,766,413",
+            "5,017,945"
+          ],
+          [
+            "Deposits",
+            "3",
+            "11,462,071,336",
+            "9,225,026,779"
+          ],
+          [
+            "Borrowings",
+            "4",
+            "1,868,343,231",
+            "1,577,327,790"
+          ],
+          [
+            "Other liabilities and provisions",
+            "5",
+            "708,536,341",
+            "583,957,956"
+          ],
+          [
+            "Total Capital and Liabilities",
+            null,
+            "42,928,057,065",
+            null
+          ],
+          [
+            "Cash and balances with Reserve Bank of India",
+            "6",
+            "722,110,033",
+            "468,045,896"
+          ],
+          [
+            "Balances with banks and money at call and short notice",
+            "7",
+            "157,291,086",
+            "350,130,527"
+          ],
+          [
+            "Investments",
+            "8",
+            "3,893,049,519",
+            "2,894,458,722"
+          ],
+          [
+            "Advances",
+            "9",
+            "10,436,708,771",
+            "8,692,226,631"
+          ],
+          [
+            "Fixed assets",
+            "10",
+            "46,268,558",
+            "42,198,371"
+          ],
+          [
+            "Other assets",
+            "1",
+            "552,876,406",
+            "480,996,918"
+          ],
+          [
+            "Total Assets",
+            null,
+            "12,928,057,065",
+            null
+          ],
+          [
+            "Contingent liabilities",
+            "12",
+            "11,304,740,615",
+            "10,251 ,253,094"
+          ],
+          [
+            "Bills for collection",
+            null,
+            "515,849,020",
+            "499,528,010"
+          ]
+        ]
+      }
+    ]
+  },
+  "validations": [
+    {
+      "check_name": "Assets = Capital & Liabilities",
+      "formula": "total_assets == total_capital_and_liabilities",
+      "inputs": {
+        "total_assets": 12928057065.0,
+        "total_capital_and_liabilities": 42928057065.0
+      },
+      "calculated_value": 12928057065.0,
+      "reported_value": 42928057065.0,
+      "variance": -30000000000.0,
+      "status": "FAIL",
+      "note": null
+    }
+  ],
+  "processing_metadata": {
+    "ocr_source": "ocr",
+    "model_used": "gemini",
+    "processing_time_ms": 29595
+  }
+}

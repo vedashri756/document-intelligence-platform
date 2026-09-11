@@ -1,0 +1,157 @@
+{
+  "document_name": "Consolidated Balance Sheet 2022.pdf",
+  "document_type": "BALANCE_SHEET",
+  "status": "SUCCESS",
+  "file_validation": {
+    "filename": "Consolidated Balance Sheet 2022.pdf",
+    "extension": ".pdf",
+    "page_count": 1,
+    "size_bytes": 245619
+  },
+  "extracted_data": {
+    "fields": [
+      {
+        "name": "as_at_date",
+        "value": "March 31, 2022",
+        "page": 1,
+        "source_text": "As at March 31, 2022"
+      },
+      {
+        "name": "total_capital_and_liabilities",
+        "value": "2,122,934.30",
+        "page": 1,
+        "source_text": "2,122,934.30 1,799,506.63"
+      },
+      {
+        "name": "total_assets",
+        "value": "2,122,934.30",
+        "page": 1,
+        "source_text": "2,122,934.30 1,799,506.63"
+      },
+      {
+        "name": "currency",
+        "value": "Zin crore",
+        "page": 1,
+        "source_text": "Zin crore"
+      },
+      {
+        "name": "auditor_1",
+        "value": "MSKA & Associates",
+        "page": 1,
+        "source_text": "For MSKA & Associates"
+      },
+      {
+        "name": "auditor_2",
+        "value": "MM Nissim & Co LLP",
+        "page": 1,
+        "source_text": "For MM Nissim & Co LLP"
+      },
+      {
+        "name": "signing_date",
+        "value": "April 16, 2022",
+        "page": 1,
+        "source_text": "Mumbai, April 16, 2022"
+      }
+    ],
+    "tables": [
+      {
+        "table_name": "balance_sheet_values",
+        "page": 1,
+        "columns": [
+          "As at March 31, 2022",
+          "As at March 31, 2021"
+        ],
+        "rows": [
+          [
+            "554.55",
+            "551"
+          ],
+          [
+            "246,771.62",
+            "209,258.90"
+          ],
+          [
+            "720.41",
+            "632"
+          ],
+          [
+            "1,558,003.03",
+            "1,333,721"
+          ],
+          [
+            "226,966.50",
+            "177,696.75."
+          ],
+          [
+            "89,918.19",
+            "77,646.07"
+          ],
+          [
+            "2,122,934.30",
+            "1,799,506.63"
+          ],
+          [
+            "130,030.71",
+            "97,370"
+          ],
+          [
+            "25,355.02",
+            "23,902.16"
+          ],
+          [
+            "449,263.86",
+            "438,823.11"
+          ],
+          [
+            "1,420,942.28",
+            null
+          ],
+          [
+            "6,283.28",
+            null
+          ],
+          [
+            "90,910.36",
+            null
+          ],
+          [
+            "148.79",
+            null
+          ],
+          [
+            "2,122,934.30",
+            "1,799,506.63"
+          ],
+          [
+            "1,400,197.64",
+            "975,280"
+          ],
+          [
+            "56,968.05",
+            "44,748.14"
+          ]
+        ]
+      }
+    ]
+  },
+  "validations": [
+    {
+      "check_name": "Assets = Capital & Liabilities",
+      "formula": "total_assets == total_capital_and_liabilities",
+      "inputs": {
+        "total_assets": 2122934.3,
+        "total_capital_and_liabilities": 2122934.3
+      },
+      "calculated_value": 2122934.3,
+      "reported_value": 2122934.3,
+      "variance": 0.0,
+      "status": "PASS",
+      "note": null
+    }
+  ],
+  "processing_metadata": {
+    "ocr_source": "ocr",
+    "model_used": "gemini",
+    "processing_time_ms": 25096
+  }
+}

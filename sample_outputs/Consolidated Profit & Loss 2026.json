@@ -1,0 +1,272 @@
+{
+  "document_name": "Consolidated Profit & Loss 2026.pdf",
+  "document_type": "PROFIT_AND_LOSS",
+  "status": "SUCCESS",
+  "file_validation": {
+    "filename": "Consolidated Profit & Loss 2026.pdf",
+    "extension": ".pdf",
+    "page_count": 1,
+    "size_bytes": 156956
+  },
+  "extracted_data": {
+    "fields": [
+      {
+        "name": "period_end_date",
+        "value": "March 31, 2026",
+        "page": 1,
+        "source_text": "For the year ended March 31, 2026"
+      },
+      {
+        "name": "total_income",
+        "value": "495,462.81",
+        "page": 1,
+        "source_text": "Total 495,462.81"
+      },
+      {
+        "name": "total_expenses",
+        "value": "416,243.35",
+        "page": 1,
+        "source_text": "Total 416,243.35"
+      },
+      {
+        "name": "net_profit",
+        "value": "76,025.97",
+        "page": 1,
+        "source_text": "Consolidated Net Profit for the year attributable to the group 76,025.97"
+      },
+      {
+        "name": "currency",
+        "value": "% in crore",
+        "page": 1,
+        "source_text": "(% in crore)"
+      },
+      {
+        "name": "auditor_1",
+        "value": "Batliboi & Purohit",
+        "page": 1,
+        "source_text": "For Batliboi & Purohit"
+      },
+      {
+        "name": "auditor_2",
+        "value": "BSR & Co. LLP",
+        "page": 1,
+        "source_text": "ForBSR&Co.LLP"
+      },
+      {
+        "name": "report_date",
+        "value": "April 18, 2026",
+        "page": 1,
+        "source_text": "Mumbai, April 18, 2026"
+      }
+    ],
+    "tables": [
+      {
+        "table_name": "Consolidated Profit and Loss Account",
+        "page": 1,
+        "columns": [
+          "Line Item",
+          "Schedule",
+          "Year ended March 31, 2026",
+          "Year ended March 31, 2025"
+        ],
+        "rows": [
+          [
+            "I INCOME :",
+            null,
+            null,
+            null
+          ],
+          [
+            "Interest earned",
+            "13",
+            "348,615.15",
+            "336,367.43"
+          ],
+          [
+            "Other income",
+            "14",
+            "146,847.66",
+            "134,548.50"
+          ],
+          [
+            "Total",
+            null,
+            "495,462.81",
+            "470,915.93"
+          ],
+          [
+            "II EXPENDITURE",
+            null,
+            null,
+            null
+          ],
+          [
+            "Interest expended",
+            "15",
+            "185,491.23",
+            "183,894.20"
+          ],
+          [
+            "Operating expenses",
+            "16",
+            "181,173.91",
+            "176,605.07"
+          ],
+          [
+            "Provisions and contingencies",
+            "18 (9)",
+            "49,578.21",
+            "36,976.49"
+          ],
+          [
+            "Total",
+            null,
+            "416,243.35",
+            "397,475.76"
+          ],
+          [
+            "III PROFIT",
+            null,
+            null,
+            null
+          ],
+          [
+            "Consolidated Net Profit for the year before Minority Interest",
+            null,
+            "79,219.46",
+            "73,440.17"
+          ],
+          [
+            "Less : Minority Interest",
+            null,
+            "3,193.49",
+            "2,647.92"
+          ],
+          [
+            "Consolidated Net Profit for the year attributable to the group",
+            null,
+            "76,025.97",
+            "70,792.25"
+          ],
+          [
+            "Brought forward consolidated profit attributable to the group",
+            null,
+            "178,692.55",
+            "150,045.57"
+          ],
+          [
+            "Total",
+            null,
+            "254,718.52",
+            "220,837.82"
+          ],
+          [
+            "IV APPROPRIATIONS :",
+            null,
+            null,
+            null
+          ],
+          [
+            "Transfer to Statutory Reserve",
+            null,
+            "19,159.57",
+            "17,260.30"
+          ],
+          [
+            "Interim Dividend paid",
+            null,
+            "3,836.57",
+            "-"
+          ],
+          [
+            "Transfer to General Reserve",
+            null,
+            "7,467.13",
+            "6,734.74"
+          ],
+          [
+            "Transfer to Special Reserve",
+            null,
+            "3,000.00",
+            "3,200.00"
+          ],
+          [
+            "Transfer to Capital Reserve",
+            null,
+            "8,320.40",
+            "507.00"
+          ],
+          [
+            "Dividend pertaining to previous year paid during the year",
+            null,
+            "16,869.41",
+            "14,826.19"
+          ],
+          [
+            "Transfer to / (from) Minority Interest",
+            null,
+            "476.12",
+            "(382.96)"
+          ],
+          [
+            "Transfer to Other Reserves",
+            null,
+            "1.85",
+            "-"
+          ],
+          [
+            "Balance carried over to consolidated balance sheet",
+            null,
+            "195,587.47",
+            "178,692.55"
+          ],
+          [
+            "Total",
+            null,
+            "254,718.52",
+            "220,837.82"
+          ],
+          [
+            "V EARNINGS PER EQUITY SHARE (Face value 1/ - per share)",
+            "18 (18)",
+            null,
+            null
+          ],
+          [
+            "Basic",
+            null,
+            "49.50",
+            "46.41"
+          ],
+          [
+            "Diluted",
+            null,
+            "49.28",
+            "46.20"
+          ]
+        ]
+      }
+    ]
+  },
+  "validations": [
+    {
+      "check_name": "Net Profit = Total Income - Total Expenses",
+      "formula": "total_income - total_expenses == net_profit",
+      "inputs": {
+        "total_income": 495462.81,
+        "total_expenses": 416243.35,
+        "net_profit": 76025.97
+      },
+      "calculated_value": 79219.46,
+      "reported_value": 76025.97,
+      "variance": 3193.49,
+      "status": "FAIL",
+      "note": null
+    }
+  ],
+  "processing_metadata": {
+    "ocr_source": "ocr",
+    "model_used": "gemini",
+    "processing_time_ms": 23294
+  }
+}

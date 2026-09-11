@@ -1,0 +1,254 @@
+{
+  "document_name": "Consolidated Profit & Loss 2019.pdf",
+  "document_type": "PROFIT_AND_LOSS",
+  "status": "SUCCESS",
+  "file_validation": {
+    "filename": "Consolidated Profit & Loss 2019.pdf",
+    "extension": ".pdf",
+    "page_count": 1,
+    "size_bytes": 162176
+  },
+  "extracted_data": {
+    "fields": [
+      {
+        "name": "period_end_date",
+        "value": "March 31, 2019",
+        "page": 1,
+        "source_text": "For the year ended March 31, 2019"
+      },
+      {
+        "name": "currency_unit",
+        "value": "in \u2018000",
+        "page": 1,
+        "source_text": "= in \u2018000"
+      },
+      {
+        "name": "total_income",
+        "value": "1,241,077,909",
+        "page": 1,
+        "source_text": "Total 1,241,077,909"
+      },
+      {
+        "name": "total_expenses",
+        "value": "1,016,621,780",
+        "page": 1,
+        "source_text": "Total 1,016,621,780"
+      },
+      {
+        "name": "net_profit",
+        "value": "224,456,129",
+        "page": 1,
+        "source_text": "Net profit for the year 224,456,129"
+      }
+    ],
+    "tables": [
+      {
+        "table_name": "Consolidated Profit and Loss Account",
+        "page": 1,
+        "columns": [
+          "Line Item",
+          "Schedule",
+          "31-Mar-19",
+          "31-Mar-18"
+        ],
+        "rows": [
+          [
+            "INCOME",
+            null,
+            null,
+            null
+          ],
+          [
+            "Interest earned",
+            "13",
+            "1,051,607,400",
+            "852,878,437"
+          ],
+          [
+            "Other income",
+            "14",
+            "189,470,509",
+            "160,566,041"
+          ],
+          [
+            "Total Income",
+            null,
+            "1,241,077,909",
+            "1,013,444,478"
+          ],
+          [
+            "EXPENDITURE",
+            null,
+            null,
+            null
+          ],
+          [
+            "Interest expended",
+            "15",
+            "537,126,876",
+            "423,814,803"
+          ],
+          [
+            "Operating expenses",
+            "16",
+            "276,947,604",
+            "239,272,220"
+          ],
+          [
+            "Provisions and contingencies",
+            null,
+            "202,547,300",
+            "164,749,045"
+          ],
+          [
+            "Total Expenditure",
+            null,
+            "1,016,621,780",
+            "827,836,068"
+          ],
+          [
+            "PROFIT",
+            null,
+            null,
+            null
+          ],
+          [
+            "Net profit for the year",
+            null,
+            "224,456,129",
+            "185,608,410"
+          ],
+          [
+            "Less: Minority interest",
+            null,
+            "1,131,820",
+            "513,389"
+          ],
+          [
+            "Add: Share in profits of associates",
+            null,
+            null,
+            "6,221"
+          ],
+          [
+            "Consolidated profit for the year",
+            null,
+            "223,324,309",
+            "185,100,242"
+          ],
+          [
+            "Balance in the Profit and Loss Account brought forward",
+            null,
+            "430,989,822",
+            "345,323,284"
+          ],
+          [
+            "Total Profit/Balance",
+            null,
+            "654,314,131",
+            "530,423,526"
+          ],
+          [
+            "APPROPRIATIONS",
+            null,
+            null,
+            null
+          ],
+          [
+            "Transfer to Statutory Reserve",
+            null,
+            "54,997,602",
+            "45,620,310"
+          ],
+          [
+            "Tax (including cess) on dividend",
+            null,
+            "433,081",
+            "507,653"
+          ],
+          [
+            "Dividend (including tax / cess thereon) pertaining to previous year paid during the year, net of dividend tax credits",
+            null,
+            "40,525,854",
+            "33,905,804"
+          ],
+          [
+            "Transfer to General Reserve",
+            null,
+            "21,078,165",
+            "17,486,728"
+          ],
+          [
+            "Transfer to Capital Reserve",
+            null,
+            "1,053,354",
+            "2,355,227"
+          ],
+          [
+            "Transfer to / (from) Investment Reserve Account",
+            null,
+            null,
+            "(442,018)"
+          ],
+          [
+            "Transfer to / (from) Investment Fluctuation Reserve",
+            null,
+            "7,730,000",
+            null
+          ],
+          [
+            "Balance carried over to Balance Sheet",
+            null,
+            "528,496,075",
+            "430,989,822"
+          ],
+          [
+            "Total Appropriations",
+            null,
+            "654,314,131",
+            "530,423,526"
+          ],
+          [
+            "EARNINGS PER EQUITY SHARE (Face value % 2 per share)",
+            null,
+            null,
+            null
+          ],
+          [
+            "Basic",
+            null,
+            "83.33",
+            "71.73"
+          ],
+          [
+            "Diluted",
+            null,
+            "82.51",
+            "70.76"
+          ]
+        ]
+      }
+    ]
+  },
+  "validations": [
+    {
+      "check_name": "Net Profit = Total Income - Total Expenses",
+      "formula": "total_income - total_expenses == net_profit",
+      "inputs": {
+        "total_income": 1241077909.0,
+        "total_expenses": 1016621780.0,
+        "net_profit": 224456129.0
+      },
+      "calculated_value": 224456129.0,
+      "reported_value": 224456129.0,
+      "variance": 0.0,
+      "status": "PASS",
+      "note": null
+    }
+  ],
+  "processing_metadata": {
+    "ocr_source": "ocr",
+    "model_used": "gemini",
+    "processing_time_ms": 12748
+  }
+}

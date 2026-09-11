@@ -1,0 +1,344 @@
+{
+  "document_name": "Consolidated Profit & Loss 2020.pdf",
+  "document_type": "PROFIT_AND_LOSS",
+  "status": "SUCCESS",
+  "file_validation": {
+    "filename": "Consolidated Profit & Loss 2020.pdf",
+    "extension": ".pdf",
+    "page_count": 1,
+    "size_bytes": 142204
+  },
+  "extracted_data": {
+    "fields": [
+      {
+        "name": "period_end_date",
+        "value": "March 31, 2020",
+        "page": 1,
+        "source_text": "For the year ended March 31, 2020"
+      },
+      {
+        "name": "total_income",
+        "value": "1,241,077,909",
+        "page": 1,
+        "source_text": "Total 1,241,077,909"
+      },
+      {
+        "name": "total_expenses",
+        "value": "1,016,621,780",
+        "page": 1,
+        "source_text": "Total 1,016,621,780"
+      },
+      {
+        "name": "net_profit",
+        "value": "272,539,506",
+        "page": 1,
+        "source_text": "Consolidated profit for the year 272,539,506"
+      },
+      {
+        "name": "interest_earned_2020",
+        "value": "1,221,892,915",
+        "page": 1,
+        "source_text": "Interest earned 13 1,221,892,915"
+      },
+      {
+        "name": "interest_earned_2019",
+        "value": "1,051,607,400",
+        "page": 1,
+        "source_text": "1,051 ,607,400"
+      },
+      {
+        "name": "other_income_2020",
+        "value": "248,789,748",
+        "page": 1,
+        "source_text": "Other income 14 248,789,748"
+      },
+      {
+        "name": "other_income_2019",
+        "value": "189,470,509",
+        "page": 1,
+        "source_text": "189,470,509"
+      },
+      {
+        "name": "interest_expended_2020",
+        "value": "621,374,216",
+        "page": 1,
+        "source_text": "Interest expended 15 621,374,216"
+      },
+      {
+        "name": "interest_expended_2019",
+        "value": "537,126,876",
+        "page": 1,
+        "source_text": "537,126,876"
+      },
+      {
+        "name": "operating_expenses_2020",
+        "value": "330,360,555",
+        "page": 1,
+        "source_text": "Operating expenses 16 330,360,555"
+      },
+      {
+        "name": "operating_expenses_2019",
+        "value": "276,947,604",
+        "page": 1,
+        "source_text": "276,947,604"
+      },
+      {
+        "name": "provisions_and_contingencies_2020",
+        "value": "245,985,239",
+        "page": 1,
+        "source_text": "Provisions and contingencies 245,985,239"
+      },
+      {
+        "name": "provisions_and_contingencies_2019",
+        "value": "202,547,300",
+        "page": 1,
+        "source_text": "202,547,300"
+      },
+      {
+        "name": "consolidated_profit_2020",
+        "value": "272,539,506",
+        "page": 1,
+        "source_text": "Consolidated profit for the year 272,539,506"
+      },
+      {
+        "name": "consolidated_profit_2019",
+        "value": "223,324,309",
+        "page": 1,
+        "source_text": "223,324,309"
+      },
+      {
+        "name": "basic_eps_2020",
+        "value": "49.84",
+        "page": 1,
+        "source_text": "Basic 49.84"
+      },
+      {
+        "name": "basic_eps_2019",
+        "value": "41.66",
+        "page": 1,
+        "source_text": "41.66"
+      },
+      {
+        "name": "diluted_eps_2020",
+        "value": "49.46",
+        "page": 1,
+        "source_text": "Diluted 49.46"
+      },
+      {
+        "name": "diluted_eps_2019",
+        "value": "41.25",
+        "page": 1,
+        "source_text": "41.25"
+      }
+    ],
+    "tables": [
+      {
+        "table_name": "Consolidated Profit and Loss Account Table",
+        "page": 1,
+        "columns": [
+          "Line Item",
+          "Schedule",
+          "31-Mar-20",
+          "31-Mar-19"
+        ],
+        "rows": [
+          [
+            "I INCOME",
+            null,
+            null,
+            null
+          ],
+          [
+            "Interest earned",
+            "13",
+            "1,221,892,915",
+            "1,051,607,400"
+          ],
+          [
+            "Other income",
+            "14",
+            "248,789,748",
+            "189,470,509"
+          ],
+          [
+            "Total Income",
+            null,
+            null,
+            "1,241,077,909"
+          ],
+          [
+            "II EXPENDITURE",
+            null,
+            null,
+            null
+          ],
+          [
+            "Interest expended",
+            "15",
+            "621,374,216",
+            "537,126,876"
+          ],
+          [
+            "Operating expenses",
+            "16",
+            "330,360,555",
+            "276,947,604"
+          ],
+          [
+            "Provisions and contingencies",
+            null,
+            "245,985,239",
+            "202,547,300"
+          ],
+          [
+            "Total Expenditure",
+            null,
+            null,
+            "1,016,621,780"
+          ],
+          [
+            "III PROFIT",
+            null,
+            null,
+            null
+          ],
+          [
+            "Net profit for the year",
+            null,
+            null,
+            "224,456,129"
+          ],
+          [
+            "Less ; Minority interest",
+            null,
+            "423,147",
+            "1,131,820"
+          ],
+          [
+            "Consolidated profit for the year",
+            null,
+            "272,539,506",
+            "223,324,309"
+          ],
+          [
+            "Balance in the Profit and Loss Account brought forward",
+            null,
+            "528,496,075",
+            "430,989,822"
+          ],
+          [
+            "Total Profit",
+            null,
+            null,
+            "654,314,131"
+          ],
+          [
+            "IV APPROPRIATIONS",
+            null,
+            null,
+            null
+          ],
+          [
+            "Transfer to Statutory Reserve",
+            null,
+            "67,717,167",
+            "54,997,602"
+          ],
+          [
+            "Tax (including cess) on dividend",
+            null,
+            "902,672",
+            "433,081"
+          ],
+          [
+            "Dividend (including tax / cess thereon) pertaining to previous year paid during the year, net of dividend tax credits",
+            null,
+            "40,525,854",
+            null
+          ],
+          [
+            "Interim Dividend (including tax)",
+            null,
+            "16,469,504",
+            null
+          ],
+          [
+            "Transfer to General Reserve",
+            null,
+            "26,257,315",
+            "21,078,165"
+          ],
+          [
+            "Transfer to Capital Reserve",
+            null,
+            "11,238,460",
+            "1,053,354"
+          ],
+          [
+            "Transfer to / (from) Investment Reserve Account",
+            null,
+            "\u201d",
+            "="
+          ],
+          [
+            "Transfer to / (from) Investment Fluctuation Reserve",
+            null,
+            "11,340,000",
+            "7,730,000"
+          ],
+          [
+            "Balance carried over to Balance Sheet",
+            null,
+            "618,176,878",
+            "528,496,075"
+          ],
+          [
+            "Total Appropriations",
+            null,
+            null,
+            "654,314,131"
+          ],
+          [
+            "V EARNINGS PER EQUITY SHARE (FACE VALUE < 1 PER SHARE)",
+            null,
+            null,
+            null
+          ],
+          [
+            "Basic",
+            null,
+            "49.84",
+            "41.66"
+          ],
+          [
+            "Diluted",
+            null,
+            "49.46",
+            "41.25"
+          ]
+        ]
+      }
+    ]
+  },
+  "validations": [
+    {
+      "check_name": "Net Profit = Total Income - Total Expenses",
+      "formula": "total_income - total_expenses == net_profit",
+      "inputs": {
+        "total_income": 1241077909.0,
+        "total_expenses": 1016621780.0,
+        "net_profit": 272539506.0
+      },
+      "calculated_value": 224456129.0,
+      "reported_value": 272539506.0,
+      "variance": -48083377.0,
+      "status": "FAIL",
+      "note": null
+    }
+  ],
+  "processing_metadata": {
+    "ocr_source": "ocr",
+    "model_used": "gemini",
+    "processing_time_ms": 42545
+  }
+}

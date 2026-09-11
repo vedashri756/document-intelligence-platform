@@ -1,0 +1,170 @@
+{
+  "document_name": "Consolidated Profit & Loss 2022.pdf",
+  "document_type": "PROFIT_AND_LOSS",
+  "status": "SUCCESS",
+  "file_validation": {
+    "filename": "Consolidated Profit & Loss 2022.pdf",
+    "extension": ".pdf",
+    "page_count": 1,
+    "size_bytes": 285912
+  },
+  "extracted_data": {
+    "fields": [
+      {
+        "name": "period_end_date",
+        "value": "March 31, 2022",
+        "page": 1,
+        "source_text": "For the year ended March 31, 2022"
+      },
+      {
+        "name": "currency",
+        "value": "Zin crore",
+        "page": 1,
+        "source_text": "Zin crore"
+      },
+      {
+        "name": "total_income",
+        "value": "167,695.40",
+        "page": 1,
+        "source_text": "167,695.40"
+      },
+      {
+        "name": "total_expenses",
+        "value": "129,544.50",
+        "page": 1,
+        "source_text": "129,544.50"
+      },
+      {
+        "name": "net_profit",
+        "value": "38,052.75",
+        "page": 1,
+        "source_text": "38,052.75"
+      },
+      {
+        "name": "company_name",
+        "value": "HDFC Bank Limited",
+        "page": 1,
+        "source_text": "HDFC Bank Limited Integrated Annual Report 2021-22"
+      }
+    ],
+    "tables": [
+      {
+        "table_name": "Consolidated Profit and Loss Account",
+        "page": 1,
+        "columns": [
+          "Particulars",
+          "Schedule",
+          "Year ended March 31, 2022",
+          "Year ended March 31, 2021"
+        ],
+        "rows": [
+          [
+            "INCOME",
+            null,
+            null,
+            null
+          ],
+          [
+            "Interest earned / Other income",
+            null,
+            "135,936.41",
+            "2"
+          ],
+          [
+            "Other income",
+            null,
+            "31,758.99",
+            "27,332.88"
+          ],
+          [
+            "Total Income",
+            null,
+            "167,695.40",
+            "155,885."
+          ],
+          [
+            "Interest expended",
+            null,
+            "58,584.33",
+            "59,247.59"
+          ],
+          [
+            "Operating expenses",
+            null,
+            "40,312.43",
+            "35,001"
+          ],
+          [
+            "Provisions and contingencies",
+            null,
+            "30,647.74",
+            "29,779.66"
+          ],
+          [
+            "Total Expenses",
+            null,
+            "129,544.50",
+            "124,028.51"
+          ],
+          [
+            "Net Profit for the year",
+            null,
+            "38,150.90",
+            "31,856.77."
+          ],
+          [
+            "Adjustments",
+            null,
+            "98.15",
+            null
+          ],
+          [
+            "Net Profit after tax",
+            null,
+            "38,052.75",
+            null
+          ],
+          [
+            "Brought forward consolidated profit attributable to the group",
+            null,
+            "78,594.20",
+            null
+          ],
+          [
+            "Total available for appropriation",
+            null,
+            "116,646.95",
+            null
+          ],
+          [
+            "Diluted EPS",
+            null,
+            "68.77",
+            "68.31"
+          ]
+        ]
+      }
+    ]
+  },
+  "validations": [
+    {
+      "check_name": "Net Profit = Total Income - Total Expenses",
+      "formula": "total_income - total_expenses == net_profit",
+      "inputs": {
+        "total_income": 167695.4,
+        "total_expenses": 129544.5,
+        "net_profit": 38052.75
+      },
+      "calculated_value": 38150.9,
+      "reported_value": 38052.75,
+      "variance": 98.15,
+      "status": "FAIL",
+      "note": null
+    }
+  ],
+  "processing_metadata": {
+    "ocr_source": "ocr",
+    "model_used": "gemini",
+    "processing_time_ms": 24250
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "document_name": "Consolidated Profit & Loss 2021.pdf",
+  "document_type": "PROFIT_AND_LOSS",
+  "status": "SUCCESS",
+  "file_validation": {
+    "filename": "Consolidated Profit & Loss 2021.pdf",
+    "extension": ".pdf",
+    "page_count": 1,
+    "size_bytes": 139425
+  },
+  "extracted_data": {
+    "fields": [
+      {
+        "name": "period_end_date",
+        "value": "March 31, 2021",
+        "page": 1,
+        "source_text": "For the year ended March 31, 2021"
+      },
+      {
+        "name": "total_income",
+        "value": "1,558,852,736",
+        "page": 1,
+        "source_text": "Total 1,558,852,736"
+      },
+      {
+        "name": "total_expenses",
+        "value": "1,240,285,055",
+        "page": 1,
+        "source_text": "Total 1,240,285,055"
+      },
+      {
+        "name": "net_profit",
+        "value": "318,567,681",
+        "page": 1,
+        "source_text": "Net profit for the year 318,567,681"
+      },
+      {
+        "name": "consolidated_profit_for_the_year",
+        "value": "318,332,091",
+        "page": 1,
+        "source_text": "Consolidated profit for the year 318,332,091"
+      },
+      {
+        "name": "company_name",
+        "value": "HDFC Bank Limited",
+        "page": 1,
+        "source_text": "HDFC Bank Limited"
+      },
+      {
+        "name": "currency_unit",
+        "value": "Zin 000",
+        "page": 1,
+        "source_text": "Zin 000"
+      }
+    ],
+    "tables": [
+      {
+        "table_name": "Consolidated Profit and Loss Account",
+        "page": 1,
+        "columns": [
+          "Particulars",
+          "Schedule",
+          "Year ended 31-Mar-21",
+          "Year ended 31-Mar-20"
+        ],
+        "rows": [
+          [
+            "I. INCOME",
+            null,
+            null,
+            null
+          ],
+          [
+            "Interest earned",
+            "13",
+            "1,285,523,933",
+            "1,221,892,915"
+          ],
+          [
+            "Other income",
+            "14",
+            "273,328,803",
+            "248,789,748"
+          ],
+          [
+            "Total Income",
+            null,
+            "1,558,852,736",
+            "1,470,682,663"
+          ],
+          [
+            "II. EXPENDITURE",
+            null,
+            null,
+            null
+          ],
+          [
+            "Interest expended",
+            "15",
+            "592,475,799",
+            "621,374,216"
+          ],
+          [
+            "Operating expenses",
+            "16",
+            "350,012,568",
+            "330,360,555"
+          ],
+          [
+            "Provisions and contingencies [Refer Schedule 18 (15)]",
+            null,
+            "297,796,688",
+            "245,985,239"
+          ],
+          [
+            "Total Expenditure",
+            null,
+            "1,240,285,055",
+            "1,197,720,010"
+          ],
+          [
+            "III. PROFIT",
+            null,
+            null,
+            null
+          ],
+          [
+            "Net profit for the year",
+            null,
+            "318,567,681",
+            "272,962,653"
+          ],
+          [
+            "Less : Minority interest",
+            null,
+            "235,590",
+            "423,147"
+          ],
+          [
+            "Consolidated profit for the year",
+            null,
+            "318,332,091",
+            "272,539,506"
+          ],
+          [
+            "Balance in the Profit and Loss Account brought forward",
+            null,
+            "618,176,878",
+            "528,496,075"
+          ],
+          [
+            "Total Profit",
+            null,
+            "936,508,969",
+            "801,035,581"
+          ],
+          [
+            "IV. APPROPRIATIONS",
+            null,
+            null,
+            null
+          ],
+          [
+            "Transfer to Statutory Reserve",
+            null,
+            "78,796,978",
+            "67,717,167"
+          ],
+          [
+            "Tax (including cess) on dividend",
+            null,
+            "-",
+            "902,672"
+          ],
+          [
+            "Dividend (including tax / cess thereon) pertaining to previous year paid during the year, net of dividend tax credits",
+            null,
+            "-",
+            "48,933,585"
+          ],
+          [
+            "Interim Dividend (including tax)",
+            null,
+            "-",
+            "16,469,504"
+          ],
+          [
+            "Transfer to General Reserve",
+            null,
+            "31,116,525",
+            "26,257,315"
+          ],
+          [
+            "Transfer to Capital Reserve",
+            null,
+            "22,916,842",
+            "11,238,460"
+          ],
+          [
+            "Transfer to / (from) Investment Reserve Account",
+            null,
+            "616,645",
+            "-"
+          ],
+          [
+            "Transfer to / (from) Investment Fluctuation Reserve",
+            null,
+            "17,120,000",
+            "-"
+          ],
+          [
+            "Balance carried over to Balance Sheet",
+            null,
+            "785,941,979",
+            "618,176,878"
+          ],
+          [
+            "Total Appropriations",
+            null,
+            "936,508,969",
+            "801,035,581"
+          ],
+          [
+            "V. EARNINGS PER EQUITY SHARE (Face value ~ 1 per share)",
+            null,
+            null,
+            null
+          ],
+          [
+            "Basic",
+            null,
+            "57.88",
+            "49.84"
+          ],
+          [
+            "Diluted",
+            null,
+            "57.61",
+            "49.46"
+          ]
+        ]
+      }
+    ]
+  },
+  "validations": [
+    {
+      "check_name": "Net Profit = Total Income - Total Expenses",
+      "formula": "total_income - total_expenses == net_profit",
+      "inputs": {
+        "total_income": 1558852736.0,
+        "total_expenses": 1240285055.0,
+        "net_profit": 318567681.0
+      },
+      "calculated_value": 318567681.0,
+      "reported_value": 318567681.0,
+      "variance": 0.0,
+      "status": "PASS",
+      "note": null
+    }
+  ],
+  "processing_metadata": {
+    "ocr_source": "ocr",
+    "model_used": "gemini",
+    "processing_time_ms": 32107
+  }
+}

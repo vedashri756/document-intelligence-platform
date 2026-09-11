@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Document Intelligence Platform</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Document Intelligence Platform</h1>
+    <p class="subtitle">Upload &amp; extract invoices and financial statements</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Process a document</h2>
+      <form id="upload-form">
+        <label>Document type
+          <select id="document_type" required>
+            <option value="INVOICE">Invoice</option>
+            <option value="BALANCE_SHEET">Balance Sheet</option>
+            <option value="PROFIT_AND_LOSS">Profit &amp; Loss</option>
+            <option value="CASH_FLOW">Cash Flow</option>
+          </select>
+        </label>
+        <label>File (PDF / JPG / PNG)
+          <input type="file" id="file" accept=".pdf,.jpg,.jpeg,.png" required />
+        </label>
+        <button type="submit" id="process-btn">Process</button>
+      </form>
+      <div id="upload-status"></div>
+    </section>
+
+    <section class="card">
+      <h2>Processed documents</h2>
+      <button id="refresh-btn">Refresh</button>
+      <table id="doc-table">
+        <thead>
+          <tr><th>Name</th><th>Type</th><th>Status</th><th>Processed at</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="card" id="detail-card" style="display:none;">
+      <h2>Document detail</h2>
+      <div id="detail-content"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
